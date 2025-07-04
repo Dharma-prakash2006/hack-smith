@@ -3,49 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Delish Food Corner</title>
+  <title>Swiggy Clone - Food Delivery</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <h1>Delish Food Corner</h1>
-    <p>Your favorite spot for tasty bites!</p>
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Get Your Favorite Food Delivered</h1>
+      <p>Order from top restaurants in your city</p>
+      <button onclick="orderFood()">Order Now</button>
+    </div>
   </header>
 
-  <nav>
-    <a href="#menu">Menu</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="menu">
-    <h2>Our Menu</h2>
-    <div class="menu-items">
-      <div class="item">
-        <h3>Veg Burger</h3>
-        <p>₹80 - Fresh & crispy with cheese</p>
+  <section class="restaurants">
+    <h2>Popular Restaurants</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?burger" alt="Burger Shop">
+        <h3>Burger Bliss</h3>
+        <p>⭐ 4.5 | Burgers, Fries</p>
       </div>
-      <div class="item">
-        <h3>Chicken Wrap</h3>
-        <p>₹120 - Juicy and spicy delight</p>
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?pizza" alt="Pizza Shop">
+        <h3>Pizza Hub</h3>
+        <p>⭐ 4.2 | Pizzas, Sides</p>
       </div>
-      <div class="item">
-        <h3>French Fries</h3>
-        <p>₹60 - Golden, crunchy and salted</p>
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?biryani" alt="Biryani Shop">
+        <h3>Royal Biryani</h3>
+        <p>⭐ 4.7 | Biryani, Kebabs</p>
       </div>
     </div>
-    <button onclick="orderNow()">Order Now</button>
   </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>📍 123 Food Street, Chennai</p>
-    <p>📞 +91 98765 43210</p>
-    <p>⏰ Open: 10 AM - 10 PM</p>
+  <section class="info">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>✅ Fast Delivery</li>
+      <li>✅ Multiple Payment Options</li>
+      <li>✅ Live Order Tracking</li>
+    </ul>
   </section>
 
   <footer>
-    &copy; 2025 Delish Food Corner. Made with ❤️ for food lovers.
+    &copy; 2025 Swiggy Clone | Designed for Demo
   </footer>
 
   <script src="script.js"></script>

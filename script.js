@@ -1,3 +1,6 @@
-function orderNow() {
-  alert("Thanks for your interest! Visit us or call to place your order.");
+function orderFood() {
+  alert("Redirecting to the Order Page... (Feature Coming Soon)");
+}
+function viewMenu() {
+  alert("Redirecting to the Menu Page... (Feature Coming Soon)");
 }
