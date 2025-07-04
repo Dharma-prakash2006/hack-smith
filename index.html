@@ -2,34 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Simple Web Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Delish Food Corner</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
-    <h1>Welcome to My Web Page</h1>
+    <h1>Delish Food Corner</h1>
+    <p>Your favorite spot for tasty bites!</p>
   </header>
 
   <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
   </nav>
 
-  <section id="home">
-    <h2>Home</h2>
-    <p>This is a simple web page example. You can add more content here.</p>
-    <button onclick="showMessage()">Click Me!</button>
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="item">
+        <h3>Veg Burger</h3>
+        <p>₹80 - Fresh & crispy with cheese</p>
+      </div>
+      <div class="item">
+        <h3>Chicken Wrap</h3>
+        <p>₹120 - Juicy and spicy delight</p>
+      </div>
+      <div class="item">
+        <h3>French Fries</h3>
+        <p>₹60 - Golden, crunchy and salted</p>
+      </div>
+    </div>
+    <button onclick="orderNow()">Order Now</button>
   </section>
 
-  <section id="about">
-    <h2>About</h2>
-    <p>This page is created to demonstrate a basic HTML, CSS, and JavaScript structure.</p>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 123 Food Street, Chennai</p>
+    <p>📞 +91 98765 43210</p>
+    <p>⏰ Open: 10 AM - 10 PM</p>
   </section>
 
   <footer>
-    &copy; 2025 My Simple Web Page. All rights reserved.
+    &copy; 2025 Delish Food Corner. Made with ❤️ for food lovers.
   </footer>
 
   <script src="script.js"></script>
