@@ -89,3 +89,18 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+.order-btn {
+  background: #fc8019;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 25px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.order-btn:hover {
+  background: #ff9933;
+}
